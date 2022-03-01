@@ -7,8 +7,69 @@
           box-sizing: border-box;
 }
 
-nav.navbar {
+body {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 50px;
-  border: 2px solid red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+.navbar .container-fluid {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1024px;
+}
+
+.navbar .container-fluid form {
+  border: 2px solid grey;
+  border-radius: 15px;
+  width: 350px;
+}
+
+.navbar .container-fluid form input {
+  border: 1px solid white;
+}
+
+.navbar .container-fluid input {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.navbar .container-fluid .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 12px;
+}
+
+.navbar .container-fluid .navbar-nav button {
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav.navbar{
-    padding-top: 50px;
-    border: 2px solid red;
+body{
+    font-family: "Poppins";
+    font-size: 15px;
 }
+.navbar{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    // gap: 80px;
+    // flex-direction: row;
+    // border: 2px solid red;
+    // width:100%; 
+    background-color: white;
+    .container-fluid{
+        form{
+            border: 2px solid grey;
+            border-radius: 15px;
+            width: 350px;
+            input{
+                border: 1px solid white;
+            }
+        }
+        justify-content: space-between;
+        gap: 100px;
+        display: flex;
+        width: 1024px;
+        input{
+            width:300px;
+            height: 60px;
+            border-radius: 10px;
+        }
+        .navbar-nav{
+            display: flex;
+            // border: 2px solid green;
+            align-items: center;
+            width: 500px;
+            justify-content: space-between;
+            gap: 12px;
+
+
+     button{
+         color: white;
+         background-color: black;
+         width: 150px;
+         height: 50px;
+         border-radius: 10px;
+         font-size: 15px;
+     }   
+    }
+    }
+}
+
