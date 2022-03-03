@@ -20,22 +20,26 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-50">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
             <a class="navbar-brand" href="#"> <img src="/images/atclogo.png" alt="ATCLogo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search your courses" aria-label="Search" > 
-                <button><i class="fas fa-search"></i></button>
-
-            </form>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="inputnsearch me-auto">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search your courses"
+                            aria-label="Search">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+
+                    </form>
+                </div>
+
+                <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">All Courses</a>
                     </li>
@@ -45,13 +49,33 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled">Sign In</a>
-                    </li> 
+                    </li>
                     <button>Sign Up</button>
                 </ul>
 
             </div>
         </div>
+
     </nav>
+    <div class="container">
+
+    <section class="row">
+            <div class="col-md-6">
+                <h3>It's time to learn and acquire digital Tech skills.</h3>
+                <p>Acquire the 21st century skills so as to improve your relevance and employability in this ever
+                    changing world.</p>
+                <button>Get Started</button>
+            </div>
+            <div class="col-md-6 images">
+                <img src="images/slider-1.png" alt="" class="desk-img">
+                <img src="images/circleBackground.svg" class="circlebg" alt="">
+
+                <img src="images/slider-3.png" alt="" class="mob-img">
+
+            </div>
+            
+    </section>
+</div>
 
 
 
